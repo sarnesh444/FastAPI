@@ -36,7 +36,7 @@ pip install fastapi
 * Model Building
   * Build your ML model like this [one](https://github.com/sarnesh444/FastAPI/blob/master/model.py)
   * After building the model to escape the overhead of training the model upon every request to the API it is recommended to pickle the model.
-  * With the help of pickle library we save the trained model,so now upon a request only a prediction is done and the model will not be trained.
+  * With the help of pickle library we save the trained model,so now upon a request only a prediction would be made and the model will not be trained all over again.
  
 ### Source code
 Find the source code [here](https://github.com/sarnesh444/FastAPI/blob/master/fastapiapp.py)
@@ -45,19 +45,14 @@ Find the source code [here](https://github.com/sarnesh444/FastAPI/blob/master/fa
 
 ### Use Case
 
-When working as a team the ML Engineer might not want to grant access to the model's source code to a front end developer the solution is to build a SimpleAPI which the developer can call using one of the methods GET/POST/PUT and fetch the models results.
-                                                                        (OR)
-If someone wishes to keep the source code of their model private but would like to grant access via an API call so that other developers can make use of the model.
+When working as a team the ML Engineer might not want to grant access to the model's source code to a developer so the solution is to build a SimpleAPI which the developer can call using one of the methods GET/POST/PUT and fetch the models results.
+ 
+ ### Alternatively....
+ An API can be built even with [Flask](https://flask.palletsprojects.com/en/1.1.x/) but having the experience of working with both,I find FastAPI more easy.
 
+## Try it out...
 
-## Contributing
-
-If you found any mistakes in my code, or if you can enhance the quality of documention, please feel free to contribute!
-Here are 3 steps to contributing.
-
-1. [Fork](https://github.com/sarnesh444/IndianNumberPlateDetection/fork) this project.
-2. Commit your changes.
-3. Create a new Pull Request and link an [issue](https://github.com/sarnesh444/IndianNumberPlateDetection/issues/new) with it.
+1. [Clone](https://github.com/sarnesh444/FastAPI.git) this repo and try it out I am sure you would not regret using it.
 
 ## Meta 
 
