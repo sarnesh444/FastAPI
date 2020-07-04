@@ -41,6 +41,8 @@ pip install fastapi
 ### Source code
 Find the source code [here](https://github.com/sarnesh444/FastAPI/blob/master/fastapiapp.py)
 
+#### This API takes in the number of years of experience as a query parameter and returns the predicted salary as output.
+
 ##### I always thought writing APIs was a tough business but with FastAPI writing simple APIs was never this easy.
 
 ### Use Case
